@@ -7,6 +7,6 @@ My .vimrc backup including some plugins (installed and managed by Vundle). Feel 
 
 ## Instalation
 ```
-git clone https://github.com/ViniciusBorges22/vimrc.git ~/vimrc_backup
+git clone https://github.com/ViniciusBorges22/vimrc.git ~/vimrc_backup && cd ~/vimrc_backup
 ./install.sh
 ```
