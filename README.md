@@ -1,5 +1,5 @@
 # vimrc
-My .vimrc backup including some plugins (installed and managed by [Vundle](https://github.com/VundleVim/Vundle.vim).
+My .vimrc backup including some plugins installed and managed by [Vundle](https://github.com/VundleVim/Vundle.vim).
 
 ## Dependencies
 - vim 7.5 or newer (remove "set termguicolors" in **.vimrc** in case you use a older version)
