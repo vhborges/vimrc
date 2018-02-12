@@ -1,5 +1,5 @@
 # vimrc
-My .vimrc backup including some plugins (installed and managed by Vundle).
+My .vimrc backup including some plugins (installed and managed by [Vundle](https://github.com/VundleVim/Vundle.vim).
 
 ## Dependencies
 - vim 7.5 or newer (remove "set termguicolors" in **.vimrc** in case you use a older version)
@@ -13,7 +13,7 @@ cd vimrc
 ```
 During instalation you will see an error regarding the gruvbox color scheme. Just ignore it, this plugin will be installed automatically.
 
-If you plan to use the YouCompleteMe plugin, make sure you have the following packages:
+If you plan to use the [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) plugin, make sure you have the following packages:
 - build-essential
 - cmake
 - python-dev
