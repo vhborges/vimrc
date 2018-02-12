@@ -10,3 +10,15 @@ My .vimrc backup including some plugins (installed and managed by Vundle). Feel 
 git clone https://github.com/ViniciusBorges22/vimrc.git ~/vimrc_backup && cd ~/vimrc_backup
 ./install.sh
 ```
+
+If you plan to use the YouCompleteMe plugin, make sure you have the following:
+- build-essential
+- cmake
+- python-dev
+- python3-dev
+
+Then run:
+```
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+```
