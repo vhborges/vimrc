@@ -7,8 +7,8 @@ My .vimrc backup including some plugins (installed and managed by Vundle).
 
 ## Instalation
 ```
-git clone https://github.com/ViniciusBorges22/vimrc.git ~/vimrc_backup
-cd ~/vimrc_backup
+git clone https://github.com/ViniciusBorges22/vimrc.git
+cd vimrc
 ./install.sh
 ```
 During instalation you will see an error regarding the gruvbox color scheme. Just ignore it, this plugin will be installed automatically.
