@@ -2,7 +2,7 @@
 My .vimrc backup including some plugins (installed and managed by Vundle). Feel free to use it.
 
 ## Dependencies
-- vim 7.5 ow newer (remove "set termguicolors" in **.vimrc** in case you use a older version)
+- vim 7.5 or newer (remove "set termguicolors" in **.vimrc** in case you use a older version)
 - git
 
 ## Instalation
