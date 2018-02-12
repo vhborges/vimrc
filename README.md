@@ -11,7 +11,7 @@ git clone https://github.com/ViniciusBorges22/vimrc.git ~/vimrc_backup && cd ~/v
 ./install.sh
 ```
 
-If you plan to use the YouCompleteMe plugin, make sure you have the following:
+If you plan to use the YouCompleteMe plugin, make sure you have the following packages:
 - build-essential
 - cmake
 - python-dev
