@@ -73,8 +73,12 @@ let g:gruvbox_italic=1
 " Coloscheme option
 colorscheme gruvbox
 
-set background=dark    " Setting dark mode
+" Setting dark mode
+set background=dark
 
+" Fix insert mode delay on vim-airline
 set ttimeoutlen=10
 
+" Better colors
 set termguicolors
+
