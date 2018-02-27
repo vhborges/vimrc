@@ -13,7 +13,11 @@ cd vimrc
 ```
 During installation you will see an error regarding the gruvbox color scheme. Just ignore it, this plugin will be installed automatically.
 
-If you plan to use the [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) plugin, make sure you have the following packages:
+If you plan to use the [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) plugin, do the following (according to your distro):
+
+### Debian-based
+Make sure you have the following packages:
+
 - build-essential
 - cmake
 - python-dev
@@ -23,4 +27,16 @@ Then copy and paste on your terminal:
 ```
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
+```
+
+### Arch-Linux
+Make sure you have the following packages:
+
+- base-devel (`sudo pacman -S --needed base-devel`)
+- cmake
+
+Then copy and paste on your terminal:
+```
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --system-libclang --clang-completer
 ```
