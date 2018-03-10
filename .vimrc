@@ -82,3 +82,5 @@ set ttimeoutlen=10
 " Better colors
 set termguicolors
 
+" Use Enter to insert a new line
+nmap <Enter> o<Esc>
