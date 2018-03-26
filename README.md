@@ -7,7 +7,7 @@ My .vimrc backup including some plugins installed and managed by [Vundle](https:
 
 ## Installation
 ```
-git clone https://github.com/ViniciusBorges22/vimrc.git
+git clone https://github.com/vhborges/vimrc.git
 cd vimrc
 ./install.sh
 ```
