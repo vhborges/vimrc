@@ -34,6 +34,7 @@ Make sure you have the following packages:
 
 - base-devel (`sudo pacman -S --needed base-devel`)
 - cmake
+- clang
 
 Then copy and paste on your terminal:
 ```
