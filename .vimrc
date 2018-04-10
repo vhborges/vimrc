@@ -17,6 +17,8 @@ Plugin 'morhetz/gruvbox'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'ap/vim-css-color'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
