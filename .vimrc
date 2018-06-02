@@ -20,6 +20,7 @@ Plugin 'rdnetto/YCM-Generator'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'ap/vim-css-color'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -84,6 +85,9 @@ set ttimeoutlen=10
 
 " Better colors
 set termguicolors
+
+"Do not lose undo after changing buffer
+:set hidden
 
 " Use Enter to insert a new line
 nmap <Enter> o<Esc>
