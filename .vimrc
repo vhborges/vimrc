@@ -92,3 +92,6 @@ set termguicolors
 
 " Use Enter to insert a new line
 nmap <Enter> o<Esc>
+
+" Automaticaly wrap git messages to 72 characteres length
+au FileType gitcommit set tw=72
