@@ -22,6 +22,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -80,6 +81,9 @@ colorscheme gruvbox
 
 " Setting dark mode
 set background=dark
+
+" Disable function highlight on C++ code
+let g:cpp_no_function_highlight = 1
 
 " Fix insert mode delay on vim-airline
 set ttimeoutlen=10
