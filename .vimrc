@@ -115,17 +115,17 @@ set expandtab
 " Enable intelligent tabbing and spacing for indentation and alignment
 set smarttab
 
-" Gruvbox italics
-let g:gruvbox_italic=1
-
-" Coloscheme option
-colorscheme gruvbox
+" One airline theme
+let g:airline_theme='one'
 
 " Setting dark mode
 set background=dark
 
-" Disable function highlight on C++ code
-let g:cpp_no_function_highlight = 1
+" One italics
+let g:one_allow_italics = 1
+
+" Coloscheme option
+colorscheme one
 
 " Fix insert mode delay on vim-airline
 set ttimeoutlen=10
