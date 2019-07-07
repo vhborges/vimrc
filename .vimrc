@@ -146,3 +146,10 @@ noremap H L
 
 " Automaticaly wrap git messages to 72 characteres length
 au FileType gitcommit set tw=72
+
+"Open NERDTree by default
+autocmd vimenter * NERDTree
+autocmd vimenter * wincmd p
+
+" Close vim when NERDTree is the only window
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
