@@ -153,3 +153,11 @@ autocmd vimenter * wincmd p
 
 " Close vim when NERDTree is the only window
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Enable Smart tab line
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+
+" Delete current buffer with \d
+nnoremap \d :bp<cr>:bd #<cr>
