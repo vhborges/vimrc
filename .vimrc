@@ -136,8 +136,13 @@ set termguicolors
 "Do not lose undo after changing buffer
 :set hidden
 
-" Use Enter to insert a new line
-nmap <Enter> o<Esc>
+" Use Ctrl+o/Enter to insert a new line below/above
+nnoremap <C-o> o<Esc>
+nnoremap <Enter> O<Esc>
+
+" Change L to H and H to L
+noremap L H
+noremap H L
 
 " Automaticaly wrap git messages to 72 characteres length
 au FileType gitcommit set tw=72
