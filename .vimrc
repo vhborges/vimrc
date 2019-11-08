@@ -4,7 +4,7 @@ call plug#begin()
 " Plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
 Plug 'Yggdroot/indentLine'
 "Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'scrooloose/nerdtree'
@@ -14,6 +14,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-repeat'
 call plug#end()
 
 if !exists('g:airline_symbols')
@@ -86,16 +87,13 @@ set number
 " Indentation options, change according to personal preference
 
 " Number of visual spaces per TAB
-set tabstop=2
+set tabstop=4
 
 " Number of spaces in TAB when editing
-set softtabstop=2
+set softtabstop=4
 
 " Number of spaces indented when reindent operations (>> and <<) are used
-set shiftwidth=2
-
-" Convert TABs to spaces
-set expandtab
+set shiftwidth=4
 
 " Enable intelligent tabbing and spacing for indentation and alignment
 set smarttab
@@ -153,6 +151,12 @@ nnoremap \p :bp<cr>
 
 " Leader
 let mapleader = ","
+
+" Prolog filetype
+let g:filetype_pl="prolog"
+
+" Scroll screen when cursor is 10 lines before the border
+set scrolloff=10
 
 " coc-nvim configs
 " ------------------------------------------------------
