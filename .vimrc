@@ -15,6 +15,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-repeat'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 if !exists('g:airline_symbols')
@@ -156,7 +157,7 @@ let mapleader = ","
 let g:filetype_pl="prolog"
 
 " Scroll screen when cursor is 10 lines before the border
-set scrolloff=10
+set scrolloff=5
 
 " coc-nvim configs
 " ------------------------------------------------------
