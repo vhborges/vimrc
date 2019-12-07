@@ -120,9 +120,11 @@ set termguicolors
 "Do not lose undo after changing buffer
 :set hidden
 
-" Use Ctrl+o/Enter to insert a new line below/above
-nnoremap <C-o> o<Esc>
-nnoremap <Enter> O<Esc>
+" Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
+nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
+nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 " Change L to H and H to L
 noremap L H
