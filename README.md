@@ -5,7 +5,7 @@ Also works with Neovim without aditional configuration.
 ## Dependencies
 - neovim or vim 7.5+ (remove "set termguicolors" in **.vimrc** in case you use a older version)
 - git
-- npm (for coc.nvim)
+- npm (for [coc.nvim](https://github.com/neoclide/coc.nvim))
 
 ## Installation
 ```
