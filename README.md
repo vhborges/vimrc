@@ -9,6 +9,7 @@ Also works with Neovim without aditional configuration.
 ### Optionals
 - npm (for [coc.nvim](https://github.com/neoclide/coc.nvim))
 - ccls (for C++ autocompletion)
+- powerline-fonts (for the correct display of [airline](https://github.com/vim-airline/vim-airline) symbols)
 
 ## Installation
 ```
