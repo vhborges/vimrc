@@ -5,7 +5,7 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "Plug 'morhetz/gruvbox'
-Plug 'Yggdroot/indentLine'
+"Plug 'Yggdroot/indentLine'
 "Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -124,8 +124,12 @@ let mapleader = ","
 " Prolog filetype
 let g:filetype_pl="prolog"
 
-" Scroll screen when cursor is 10 lines before the border
+" Scroll screen when cursor is 5 lines before the border
 set scrolloff=5
+
+" Show indentation levels with the '|' character
+set listchars=tab:\|\ 
+set list
 
 " coc-nvim configs
 " ------------------------------------------------------
