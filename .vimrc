@@ -53,16 +53,14 @@ set autoindent
 " Display line numbers on the left
 set number
 
-" Indentation options, change according to personal preference
-
 " Number of visual spaces per TAB
-set tabstop=4
+set tabstop=2
 
 " Number of spaces in TAB when editing
-set softtabstop=4
+set softtabstop=2
 
 " Number of spaces indented when reindent operations (>> and <<) are used
-set shiftwidth=4
+set shiftwidth=2
 
 " Enable intelligent tabbing and spacing for indentation and alignment
 set smarttab
