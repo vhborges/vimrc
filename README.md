@@ -13,7 +13,7 @@ Also works with Neovim without aditional configuration.
 ### Optionals
 - npm (for [coc.nvim](https://github.com/neoclide/coc.nvim))
 - ccls (for C++ autocompletion)
-- powerline-fonts (for the correct display of [airline](https://github.com/vim-airline/vim-airline) symbols)
+- Meslo Nerd Font (for the correct display of the slanted separators for the [lightline plugin](https://github.com/itchyny/lightline.vim))
 
 ## Installation
 ```
