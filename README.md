@@ -3,16 +3,14 @@ My .vimrc backup including some plugins installed and managed by [vim-plug](http
 Also works with Neovim without aditional configuration.
 
 ## Installation prerequisites
-- A Unix-like operating system
-- bash
+- An Unix-like operating system
 - git
+- vim-plug (link above)
 
 ## Running prerequisites
 - neovim or vim 7.5+ (remove "set termguicolors" inside **.vimrc** in case you use a older version)
 
 ### Optionals
-- npm (for [coc.nvim](https://github.com/neoclide/coc.nvim))
-- ccls (for C++ autocompletion)
 - Meslo Nerd Font (for the correct display of the slanted separators for the [lightline plugin](https://github.com/itchyny/lightline.vim))
 
 ## Installation
